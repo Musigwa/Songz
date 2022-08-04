@@ -1,22 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Songz application is a React/Nextjs based web app to help you search your favorite artwork collections.
+It's powered by the [iTunes / Apple Music Api](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/Searching.html#//apple_ref/doc/uid/TP40017632-CH5-SW1)
 
 ## Getting Started
 
-First, run the development server:
+First, after cloning this source code, please run:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+1. ````bash
+   npm install # or ```yarn install
+   ````
+2. ````bash
+   npm run dev # or ```yarn dev
+   ````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The above steps will install dependencies, compile, and launch the application on your default browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+By default, it will run on port `3000` if it wasn't taken by any other running service.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Please check your terminal to ensure the correct port/link and follow the link to open it with your browser to see the result.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+You may land on the defualt page where you will be able to search for your favorite music, movies collections.
 
 ## Learn More
 

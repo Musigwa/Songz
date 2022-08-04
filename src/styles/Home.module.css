@@ -119,6 +119,11 @@
   .card {
     background-color: #222;
   }
+  .card:active,
+  .card:hover,
+  .card:focus {
+    box-shadow: cadetblue 0px 2px 8px 0px;
+  }
   .footer {
     border-color: #222;
   }
